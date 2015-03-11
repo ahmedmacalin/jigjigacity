@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgeoundeducation"
+
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/ebtn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="0dp"
+
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/educaticonlefticon1"
+            android:text="EDUCATION"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/ebtn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/juicon"
+            android:drawableRight="@drawable/arrowgreenicon"
+            android:text="JIGJIGA UNIVERSITY"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ebtn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:drawableLeft="@drawable/jpc3"
+
+            android:text="Jigjiga poly technic college"
+            android:textColor="@color/red" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/jpc2"
+
+            android:layout_marginBottom="0dp" />
+        <TextView
+            android:id="@+id/ebtn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="0.02"
+
+            android:text="Jigjiga Secondary and Preparatory School"
+            android:textColor="@color/red" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/jigschool"
+            android:id="@+id/schools"
+            android:layout_marginBottom="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

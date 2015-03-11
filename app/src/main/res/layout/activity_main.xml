@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:background="@drawable/newcity1"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.21"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/transport_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/transport"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="TRANSPORT"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/history_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/galliconleft1"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="HISTORY/CULTURE"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/education_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/educaticonlefticon1"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="EDUCATION"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hotel_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/hotelhd"
+            android:drawableRight="@drawable/arrowicon"
+            android:text="HOTELS/RESTUARENTS"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/mapbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:text="MAPS"
+            android:textColor="@color/black"
+            android:background="@drawable/button_green"/>
+
+
+        <Button
+            android:id="@+id/button_so"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:autoLink="web"
+            android:background="@drawable/button_green"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="goToSo"
+
+            android:text="HAMBALYO.COM" />
+    </LinearLayout>
+
+    <ViewAnimator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewAnimator" />
+
+
+</LinearLayout>

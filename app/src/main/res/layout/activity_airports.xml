@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/planelanding"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_green"
+            android:drawableRight="@drawable/airiconleft"
+            android:drawableLeft="@drawable/airiconleft"
+            android:textColor="@color/black"
+            android:text="SELECT AN AIRPORT"
+            android:layout_marginBottom="10dp" />
+
+    <Spinner
+            android:id="@+id/SpinnerOrginal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+        />
+
+    <Button
+            android:id="@+id/buttonUseItem"
+            android:layout_width="fill_parent"
+            android:background="@color/blue"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+        />
+
+
+    <TextView
+            android:id="@+id/myTextView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/jaicon2" />
+
+    <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:orientation="vertical" 
+           android:layout_marginLeft="10dp"
+           android:gravity="left" >
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jigjiga Airport"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textColor="@color/red"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jijairport" />
+
+
+        <Button
+            android:id="@+id/labtn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_gov"
+            android:drawableLeft="@drawable/arrivalicon"
+            android:drawableRight="@drawable/departureicon"
+            android:textSize="18sp"
+
+            android:text="LIVE ARRIVALS and LIVE DEPARTURES"
+            android:textColor="@color/red"
+            android:autoLink="web"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:linksClickable="true"
+            android:onClick="goToSo2"/>
+
+
+
+
+  </LinearLayout>
+  
+    
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/historyculture"
+    android:orientation="vertical"
+    android:padding="30dp" >
+        
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hbtn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/galliconleft1"
+            android:text="History/culture"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="188dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hbtn_2"
+            android:layout_width="fill_parent"
+            android:layout_height="47dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-5dp"
+            android:background="@drawable/transport_button"
+            android:drawableLeft="@drawable/horse"
+            android:drawableRight="@drawable/arrowgreenicon"
+            android:text="History/culture"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/hbtn_3"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-5dp"
+            android:background="@drawable/transport_button"
+            android:drawableLeft="@drawable/cultureicon"
+            android:drawableRight="@drawable/arrowgreenicon"
+            android:text="Gallery"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/hbtn_4"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_weight="0.36"
+            android:background="@drawable/transport_button"
+            android:drawableLeft="@drawable/dhan1"
+            android:drawableRight="@drawable/arrowgreenicon"
+            android:text="video/music"
+            android:textColor="@color/black" />
+        
+
+    </LinearLayout>
+
+    </LinearLayout>

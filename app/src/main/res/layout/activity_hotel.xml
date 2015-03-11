@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/h1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hotelbtn_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/hotelicon1"
+            android:drawableRight="@drawable/arrowblueicon"
+            android:text="HOTELS"
+            android:textColor="@color/black" />
+	
+        <Button
+            android:id="@+id/hotelbtn_3"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_gov"
+            android:drawableLeft="@drawable/resticon"
+            android:drawableRight="@drawable/arrowblueicon"
+            android:text="RESTUARENTS"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/hotelbtn_4"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/button_gov"
+            android:drawableLeft="@drawable/shopicon"
+            android:drawableRight="@drawable/arrowblueicon"
+            android:text="SHOPS"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
